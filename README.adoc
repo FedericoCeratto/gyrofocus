@@ -2,7 +2,6 @@
 
 Requirements:
 
-.Bulleted
 - an Arduino-based gyroscope to be mounted on your headphones (or a hat?)
 - a window manager that can be controlled from CLI (e.g. i3)
 
