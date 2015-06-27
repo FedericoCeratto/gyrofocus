@@ -1,0 +1,28 @@
+== Switch focus between windows using a gyroscope
+
+Requirements:
+ - an Arduino-based gyroscope to be mounted on your headphones (or a hat?)
+ - a window manager that can be controlled from CLI (e.g. i3)
+
+Cheap Atmega328p + MPU6050 Arduino clones can be bought on aliexpress for around 10 euros including shipping: 
+
+http://www.aliexpress.com/item/Free-Shipping-MWC-ATMega328p-MPU6050w-USB-6-Axis-Gyro-accelerometer-Control-Sensor/1688063076.html
+
+=== Installation
+
+Install the arduino IDE and Nim:
+
+ $ apt-get install arduino nim
+ 
+Connect the Arduino device and load atmega328p-mpu6050.ino
+
+Compile and run the desktop-side application:
+
+ $ nim c gyrofocus
+ $ ./gyrofocus -h
+ 
+ Calibrate it with -c, edit the .json configuration file.
+ 
+ Run it with -b and/or -d for debugging.
+
+Released under AGPLv3.
