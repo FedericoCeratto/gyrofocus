@@ -1,0 +1,9 @@
+{
+    "ttyname": "/dev/ttyUSB0",
+    "xcoeff": 0.0,
+    "ycoeff": 0.0,
+    "zcoeff": -1.0,
+    "threshold": 2000.0,
+    "focus_right_cmd": "/usr/bin/i3-msg focus right >/dev/null",
+    "focus_left_cmd": "/usr/bin/i3-msg focus left >/dev/null",
+}
