@@ -8,6 +8,9 @@ Requirements:
 
 Cheap Atmega328p + MPU6050 Arduino clones can be bought on link:http://www.aliexpress.com/item/Free-Shipping-MWC-ATMega328p-MPU6050w-USB-6-Axis-Gyro-accelerometer-Control-Sensor/1688063076.html[aliexpress] for around 10 Euros including shipping.
 
+image:atmega328p-mpu6050.jpg["Atmega328p",width=128]
+
+
 === Installation
 
 Install the arduino IDE and Nim:
